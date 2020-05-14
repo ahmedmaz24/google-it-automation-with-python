@@ -11,7 +11,7 @@ Look into different tools that can be really useful in today's IT world by:
 
 ## Web Applications and Services
 
-### Web Applications and Services
+### Web Applications and Services (sub)
 
 A **web application** is an application that you interact with over HTTP. Most of the time when you’re using a website on the Internet, you’re interacting with a web application.
 
@@ -107,8 +107,6 @@ JSON supports a few elements of different data types such as:
   }
 ]
 ```
-
-
 
 ---
 
