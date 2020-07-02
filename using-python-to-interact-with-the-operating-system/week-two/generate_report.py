@@ -8,7 +8,9 @@ def read_employees(csv_file_location):
         employee_list.append(data)
     return employee_list
 
-employee_list = read_employees('/home/student-01-7ae3abd56cd7/data/employees.csv')
+employee_list = read_employees('/home/student-01-fabb0ed26291/data/employees.csv')
+
+
 
 def process_data(employee_list):
     department_list = []
@@ -21,11 +23,11 @@ def process_data(employee_list):
     return department_data
 
 dictionary = process_data(employee_list)
-
+print(dictionary)
 def write_report(dictionary, report_file):
     with open(report_file, "w+") as f:
         for k in sorted(dictionary):
             f.write(str(k)+':'+str(dictionary[k])+'\n')
     f.close()
 
-write_report(dictionary, '/home/student-01-7ae3abd56cd7/test_report.txt')
+write_report(dictionary, '/home/student-01-fabb0ed26291/data/report.txt')
